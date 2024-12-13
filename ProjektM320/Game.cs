@@ -19,7 +19,7 @@ public class Game
     {
         Console.WriteLine("Enter your name: ");
         var playerName = Console.ReadLine();
-        _player = new Player(playerName);
+         _player = new Player(playerName, 100, 5, 15);
     }
 
     private void InitializeCharacters()
