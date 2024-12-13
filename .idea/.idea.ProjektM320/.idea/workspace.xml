@@ -7,16 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d4dd1b-3155-49d5-837f-6897c0d0d5c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/Character.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Monster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Npc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjektM320/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjektM320.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ProjektM320.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjektM320/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjektM320/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="46d4dd1b-3155-49d5-837f-6897c0d0d5c8" name="Changes" comment="classes erstellt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,8 +81,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734077860770</updated>
-      <workItem from="1734077862091" duration="2610000" />
+      <workItem from="1734077862091" duration="5013000" />
     </task>
+    <task id="LOCAL-00001" summary="classes erstellt">
+      <option name="closed" value="true" />
+      <created>1734083586490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734083586490</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +113,7 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="classes erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes erstellt" />
   </component>
 </project>
