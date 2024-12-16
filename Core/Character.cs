@@ -2,15 +2,15 @@ namespace Core;
 
 public abstract class Character
 {
-    private readonly int _health;
-    private readonly int _defense;
-    private readonly int _attackdamage;
+    protected int Health;
+    protected int Defense;
+    protected int Attackdamage;
     public Character(string name, int health, int defense, int attackdamage)
     {
         Name = name;
-        _health = health;
-        _defense = defense;
-        _attackdamage = attackdamage;
+        Health = health;
+        Defense = defense;
+        Attackdamage = attackdamage;
     }
     public string Name { get;}
     

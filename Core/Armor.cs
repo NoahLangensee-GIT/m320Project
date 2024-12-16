@@ -2,13 +2,13 @@
 
 public class Armor:Item
 {
-    public Armor(string name) : base(name)
+    public Armor(string name, int stat) : base(name, stat)
     {
         
     }
     
-    public override void Effect()
+    public override void Effect(Player player)
     {
-        
+        player.AdjustDefense(Stat);
     }
 }

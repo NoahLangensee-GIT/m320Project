@@ -2,12 +2,12 @@
 
 public class Potion:Item
 {
-    public Potion(string name) : base(name)
+    public Potion(string name, int stat) : base(name, stat)
     {
         
     }
     
-    public override void Effect()
+    public override void Effect(Player player)
     {
         
     }
