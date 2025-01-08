@@ -8,9 +8,10 @@ class Program
         {
             Console.WriteLine("Neues Spiel gestartet");
             _ = new Game();
-            Console.WriteLine("Beenden sie das Spiel mit \"exit\" oder starten sie ein neues Spiel mit Enter.");
+            Console.WriteLine("[1] Neues Spiel");
+            Console.WriteLine("[2] Beenden");
             var input = Console.ReadLine();
-            if (input == "exit")
+            if (input == "2")
             {
                 break;
             }

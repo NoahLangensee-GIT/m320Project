@@ -22,14 +22,8 @@ public class Player : Character
         Health += stat;
     }
 
-    public int GetHealth()
+    public void SetDefaultStats(int defaultDefense, int defaultAttackDamage)
     {
-        return Health;
-    }
-
-    public void SetDefaultStats(int defaultHealth, int defaultDefense, int defaultAttackDamage)
-    {
-        Health = defaultHealth;
         Defense = defaultDefense;
         Attackdamage = defaultAttackDamage;
     }

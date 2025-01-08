@@ -14,5 +14,9 @@ public abstract class Character
         Attackdamage = attackdamage;
     }
     public string Name { get;}
+    public int GetHealth()
+    {
+        return Health;
+    }
     
 }
