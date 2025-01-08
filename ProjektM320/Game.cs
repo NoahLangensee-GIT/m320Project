@@ -25,6 +25,8 @@ public class Game
         while (_player.GetHealth() > 0)
         {
             RecalculateStats();
+            _player.PrintStats();
+            Console.WriteLine("Du gehst in den nächsten Raum.");
             var rnd = new Random();
             var encounter = rnd.Next(0, 10);
             if (encounter >= 8)
