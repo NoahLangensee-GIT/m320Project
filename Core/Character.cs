@@ -5,6 +5,7 @@ public abstract class Character
     protected int Health;
     protected int Defense;
     protected int Attackdamage;
+    public List<Item> Items = [];
     public Character(string name, int health, int defense, int attackdamage)
     {
         Name = name;

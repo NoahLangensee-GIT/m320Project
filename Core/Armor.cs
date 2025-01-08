@@ -1,8 +1,8 @@
 ﻿namespace Core;
 
-public class Armor:Item
+internal class Armor:Item
 {
-    public Armor(string name, int stat) : base(name, stat)
+    public Armor(string name, int stat, bool isConsumable) : base(name, stat, isConsumable)
     {
         
     }

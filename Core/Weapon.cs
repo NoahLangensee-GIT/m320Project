@@ -2,7 +2,7 @@
 
 public class Weapon:Item
 {
-    public Weapon(string name, int stat) : base(name, stat)
+    public Weapon(string name, int stat, bool isConsumable) : base(name, stat, isConsumable)
     {
         
     }
