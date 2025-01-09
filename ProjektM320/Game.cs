@@ -106,7 +106,6 @@ public class Game
 
     private void RoundBasedCombat(Character enemy, bool movesFirst)
     {
-        //TODO implement Attacks
         if (movesFirst)
         {
             while (_player.GetHealth() > 0 && enemy.GetHealth() > 0)
@@ -152,8 +151,10 @@ public class Game
                 }
             }
         }
-        //TODO implement LVL UP after won fight
-        _player.LevelUp();
+        if (enemy.GetHealth() <= 0)
+        {
+            LevelUp();
+        }
     }
 
     private void InitializePlayer()
@@ -177,5 +178,12 @@ public class Game
         {
             nonConsumableItem.Effect(_player);
         }
+    }
+
+    private void LevelUp()
+    {
+        _player.AdjustHealth(50);
+        _defaultDefense += 5;
+        _defaultAttackDamage += 10;
     }
 }

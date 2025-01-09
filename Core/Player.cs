@@ -33,11 +33,4 @@ public class Player : Character
         Console.WriteLine("Du hast " + Defense + " Rüstung");
         Console.WriteLine("Du hast " + Attackdamage + " Angriffskraft");
     }
-
-    public void LevelUp()
-    {
-        Health += 50;
-        Attackdamage += 10;
-        Defense += 5;
-    }
 }
