@@ -153,6 +153,7 @@ public class Game
             }
         }
         //TODO implement LVL UP after won fight
+        _player.LevelUp();
     }
 
     private void InitializePlayer()
