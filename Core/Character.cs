@@ -18,5 +18,16 @@ public abstract class Character
     {
         return Health;
     }
+
+    public void DealDamage(Character target)
+    {
+        var damageDealt = Attackdamage;
+        target.TakeDamage(damageDealt);
+    }
     
+    private void TakeDamage(int damage)
+    {
+        Health -= damage - Defense;
+    }
+
 }

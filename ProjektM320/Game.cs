@@ -111,7 +111,7 @@ public class Game
         {
             while (_player.GetHealth() > 0 && enemy.GetHealth() > 0)
             {
-                enemy.Attacks();
+                enemy.DealDamage(_player);
                 if (_player.GetHealth() > 0)
                 {
                     Console.WriteLine("Was möchtest du tun?");
@@ -135,7 +135,7 @@ public class Game
                             _player.Items.Remove(consumableItems[itemIndex]);
                             break;
                         default:
-                            _player.Attacks();
+                            _player.DealDamage(enemy);
                             break;
                     }
                 }
@@ -145,10 +145,10 @@ public class Game
         {
             while (_player.GetHealth() > 0 && enemy.GetHealth() > 0)
             {
-                _player.Attacks();
+                _player.DealDamage(enemy);
                 if (enemy.GetHealth() > 0)
                 {
-                    enemy.Attacks();
+                    enemy.DealDamage(_player);
                 }
             }
         }

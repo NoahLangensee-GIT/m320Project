@@ -10,5 +10,4 @@ public class Monster : Character
             new Weapon("Club", 5, false), 
             new HealthPotion("Health Potion",25, true)];
     }
-    
 }
