@@ -1,6 +1,6 @@
 ﻿namespace Core;
 
-public class HealthPotion:Item
+internal class HealthPotion:Item
 {
     public HealthPotion(string name, int stat, bool isConsumable) : base(name, stat, isConsumable)
     {

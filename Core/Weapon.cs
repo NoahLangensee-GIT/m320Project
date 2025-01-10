@@ -1,6 +1,6 @@
 ﻿namespace Core;
 
-public class Weapon:Item
+internal class Weapon:Item
 {
     public Weapon(string name, int stat, bool isConsumable) : base(name, stat, isConsumable)
     {
