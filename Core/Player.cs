@@ -21,16 +21,9 @@ public class Player : Character
         Health += stat;
     }
 
-    public void SetDefaultStats(int defaultDefense, int defaultAttackDamage)
+    public override void SetDefaultStats(double defaultDefense, double defaultAttackDamage, double defaultHealth = 0)
     {
         Defense = defaultDefense;
         Attackdamage = defaultAttackDamage;
-    }
-
-    public void PrintStats()
-    {
-        Console.WriteLine("Du hast noch " + Health + " Leben");
-        Console.WriteLine("Du hast " + Defense + " Rüstung");
-        Console.WriteLine("Du hast " + Attackdamage + " Angriffskraft");
     }
 }
