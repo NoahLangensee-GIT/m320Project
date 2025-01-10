@@ -24,8 +24,8 @@ public abstract class Character
         var damageDealt = Attackdamage;
         target.TakeDamage(damageDealt);
     }
-    
-    private void TakeDamage(int damage)
+
+    public void TakeDamage(int damage)
     {
         Health -= damage - Defense;
     }
