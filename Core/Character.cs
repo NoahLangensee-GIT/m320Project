@@ -29,6 +29,10 @@ public abstract class Character
     public void TakeDamage(double damage)
     {
         Health -= damage - Defense;
+        if (Health<0)
+        {
+            Health = 0;
+        }
         Console.WriteLine(Name + " hat " + Convert.ToInt32(Health) + " Leben");
     }
     public void PrintStats()

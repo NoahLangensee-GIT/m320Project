@@ -25,8 +25,7 @@ public class Npc : Character
         Items = [
             new HealthPotion("Minor Health Potion", 10, true), 
             new HealthPotion("Small Health Potion", 15, true), 
-            new HealthPotion("Medium Health Potion", 20, true), 
-            new HealthPotion("Health Potion", 25, true), 
+            new HealthPotion("Medium Health Potion", 25, true), 
             new HealthPotion("Big Health Potion", 35, true),
             new HealthPotion("Large Health Potion", 50, true), 
             new HealthPotion("Mega Health Potion", 75, true), 
