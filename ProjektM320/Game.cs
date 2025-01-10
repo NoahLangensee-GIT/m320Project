@@ -135,7 +135,7 @@ public class Game
 
         if (enemy.GetHealth() <= 0)
         {
-            Console.WriteLine("Monster besiegt!");
+            Console.WriteLine("Monster besiegt! LVL UP!");
             LevelUp();
             var rnd = new Random();
             if ( rnd.Next(0, 2) == 0)
@@ -153,7 +153,7 @@ public class Game
         Console.WriteLine("[1] Angreifen");
         Console.WriteLine("[2] Item benutzen");
         var choice = Console.ReadLine();
-        if (choice == "2")
+        if (choice == "2" && _player.Items.Any(item => item.IsConsumable))
         {
             var consumableItems = _player.Items.Where(item => item.IsConsumable).ToList();
             int itemIndex;
